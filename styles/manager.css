@@ -1,0 +1,450 @@
+.ul-tremor-split-heading {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.ul-tremor-split-heading img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border: 0;
+}
+
+.ul-tremor-split-counter {
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr) 2rem;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.3rem;
+}
+
+.ul-tremor-split-counter input {
+  width: 100%;
+  text-align: center;
+}
+
+.ul-section-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.ul-inline-status-toggle {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  margin: 0;
+}
+
+.ul-activity-statuses .ul-section-toggle input,
+.ul-activity-conversion .ul-section-toggle input,
+.ul-inline-status-toggle input {
+  width: auto;
+  margin: 0;
+}
+
+.ul-activity-conditions-tab {
+  overflow-y: auto;
+  max-height: 65vh;
+}
+
+.ul-activity-conversion [hidden] {
+  display: none !important;
+}
+
+.ul-conversion-fields select,
+.ul-conversion-fields input,
+.ul-conversion-fields textarea {
+  width: 100%;
+}
+
+.ul-conversion-fields select[multiple] {
+  height: auto;
+  min-height: 6rem;
+}
+
+.ul-automation-settings .window-content {
+  max-height: 78vh;
+  overflow: auto;
+}
+
+.ul-automation-settings select {
+  width: 100%;
+  margin-top: 0.4rem;
+}
+
+.ul-automation-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.ul-automation-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.ul-automation-toggle > label {
+  white-space: nowrap;
+}
+
+.ul-automation-actions button {
+  flex: 1;
+}
+
+.ul-status-manager .window-content {
+  overflow: auto;
+  max-height: 78vh;
+}
+
+.ul-status-manager .ul-manager {
+  display: block;
+  line-height: 1.4;
+}
+
+.ul-status-manager .ul-eyebrow {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-12, 0.8rem);
+  margin-bottom: 1rem;
+}
+
+.ul-status-manager .ul-status-counts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.7rem;
+}
+
+.ul-status-manager .ul-status-count {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.ul-status-manager .ul-status-count img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border: 0;
+}
+
+.ul-status-manager .ul-status-count.is-suppressed {
+  opacity: 0.5;
+}
+
+.ul-status-manager .ul-status-picker {
+  margin-bottom: 1rem;
+}
+
+.ul-status-manager .ul-detail {
+  padding: 1rem;
+  border: 1px solid var(--color-border-light-primary, currentColor);
+  border-radius: 4px;
+}
+
+.ul-status-manager .ul-detail-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ul-status-manager .ul-selected-name {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.ul-status-manager .ul-selected-name img {
+  width: 36px;
+  height: 36px;
+  border: 0;
+}
+
+.ul-status-manager .ul-selected-name h2 {
+  margin: 0 0 0.2rem;
+  border: 0;
+}
+
+.ul-status-manager .ul-selected-name span {
+  font-size: var(--font-size-12, 0.8rem);
+  color: var(--color-text-secondary);
+}
+
+.ul-status-manager .ul-current-count {
+  font-size: var(--font-size-28, 1.75rem);
+  line-height: 1;
+}
+
+.ul-status-manager .ul-description {
+  margin: 0.75rem 0;
+  color: var(--color-text-secondary);
+}
+
+.ul-status-manager .ul-tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.ul-status-manager .ul-tabs button {
+  flex: 1;
+}
+
+.ul-status-manager .ul-tabs button.is-selected {
+  border-color: var(--color-border-highlight, currentColor);
+  font-weight: bold;
+}
+
+.ul-status-manager .ul-field-label {
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.ul-status-manager input,
+.ul-status-manager select {
+  width: 100%;
+}
+
+.ul-status-manager .ul-amount {
+  display: grid;
+  grid-template-columns: 36px 1fr 36px;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+  align-items: center;
+}
+
+.ul-status-manager .ul-amount input {
+  text-align: center;
+}
+
+.ul-status-manager .ul-actions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.ul-status-manager .ul-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
+  margin: 0 0 1rem;
+}
+
+.ul-status-manager .ul-facts small {
+  width: 100%;
+  color: var(--color-text-secondary);
+}
+
+.ul-status-manager .ul-preview {
+  padding: 0.75rem 0;
+  color: var(--color-text-secondary);
+}
+
+.ul-status-manager .ul-resolve {
+  width: 100%;
+}
+
+.ul-status-manager .ul-note {
+  color: var(--color-text-secondary);
+  margin: 0.5rem 0;
+}
+
+.ul-status-manager .ul-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.ul-status-manager .ul-footer button {
+  flex: 1 1 8rem;
+}
+
+.ul-resolution-message .ul-resolution-card {
+  margin: 0 0 0.75rem;
+  border: 0;
+}
+
+.ul-resolution-message .ul-resolution-card > .ul-resolution-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.3rem 0;
+}
+
+.ul-resolution-message .ul-resolution-rules > summary {
+  cursor: pointer;
+}
+
+.ul-resolution-message .ul-resolution-card > .ul-resolution-heading img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  border: 0;
+}
+
+.ul-resolution-message .ul-resolution-card > .ul-resolution-heading strong {
+  font-size: var(--font-size-18, 1.15rem);
+}
+
+.ul-resolution-message .ul-resolution-card > .ul-resolution-heading span {
+  margin-left: auto;
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-12, 0.8rem);
+}
+
+.ul-resolution-auto damage-application {
+  display: none !important;
+}
+
+.ul-resolution-rules {
+  margin: 0.5rem 0;
+}
+
+.ul-resolution-credit {
+  display: block;
+  margin: 0.5rem 0;
+  font-size: var(--font-size-12, 0.8rem);
+}
+
+.ul-resolution-full p {
+  margin: 0.5rem 0;
+  line-height: 1.4;
+}
+
+.ul-tremor-activities {
+  max-height: min(55vh, 32rem);
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+  padding-right: 0.5rem;
+}
+
+.ul-tremor-activities .form-group {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(10rem, 0.8fr);
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.ul-tremor-activities .form-group > label {
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.ul-tremor-activities select {
+  width: 100%;
+  min-width: 0;
+}
+
+.ul-activity-status-list {
+  max-height: 24rem;
+  overflow-y: auto;
+}
+
+.ul-application-picker {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ul-application-picker select {
+  flex: 1;
+  min-width: 0;
+}
+
+.ul-application-picker > img {
+  width: 32px;
+  height: 32px;
+  flex: 0 0 32px;
+  object-fit: contain;
+  border: 0;
+}
+
+.ul-enabled-statuses {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 0.65rem;
+}
+
+.ul-enabled-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.ul-enabled-status > img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  border: 0;
+}
+
+.ul-activity-status-list .form-group > label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ul-activity-status-list [hidden] {
+  display: none !important;
+}
+
+.ul-activity-status-list .ul-status-requirement {
+  flex: 0 0 100%;
+}
+
+.ul-status-requirement label,
+.ul-status-requirement textarea {
+  display: block;
+  width: 100%;
+}
+
+.ul-status-requirement textarea {
+  margin-top: 0.4rem;
+  resize: vertical;
+}
+
+.ul-status-requirement-text {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.ul-effect-count .form-fields > button {
+  flex: 0 0 2rem;
+}
+
+.ul-effect-count input {
+  text-align: center;
+}
+
+.ul-status-application > header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ul-status-application > header img {
+  border: 0;
+  object-fit: contain;
+}
+
+.ul-manual-status-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.ul-manual-status-buttons > button {
+  flex: 1;
+}
+
+.ul-manual-status-application + .ul-manual-status-application {
+  margin-top: 0.75rem;
+}

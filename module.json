@@ -1,0 +1,38 @@
+{
+  "id": "undertomes-limbus",
+  "title": "Undertomes LC Conditions",
+  "description": "Undertomes' Limbus-inspired statuses with automatic resolutions and a visualizer for status counts. ",
+  "version": "0.2.0",
+  "compatibility": {
+    "minimum": "14",
+    "maximum": "14",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6",
+          "maximum": "6.0.6"
+        }
+      }
+    ]
+  },
+  "esmodules": ["scripts/main.mjs"],
+  "styles": [
+    {
+      "src": "styles/manager.css"
+    }
+  ],
+  "authors": [
+    {
+      "name": "Twofell",
+      "flags": {}
+    }
+  ],
+  "url": "https://theundertomes.crd.co/#lcc",
+  "socket": true,
+  "flags": {}
+}
