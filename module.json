@@ -34,5 +34,7 @@
   ],
   "url": "https://theundertomes.crd.co/#lcc",
   "socket": true,
-  "flags": {}
+  "flags": {},
+  "manifest": "https://raw.githubusercontent.com/twofelled/undertomes-foundry-module/main/module.json",
+  "download": "https://github.com/twofelled/undertomes-foundry-module/releases/download/v0.2.0/undertomes-limbus.zip"
 }
