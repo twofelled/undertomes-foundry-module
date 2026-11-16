@@ -14,8 +14,7 @@
         "id": "dnd5e",
         "type": "system",
         "compatibility": {
-          "minimum": "6",
-          "maximum": "6.0.6"
+          "minimum": "6"
         }
       }
     ]
