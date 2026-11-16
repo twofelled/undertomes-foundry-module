@@ -1,7 +1,7 @@
 {
   "id": "undertomes-limbus",
   "title": "Undertomes LC Conditions",
-  "description": "Undertomes' Limbus-inspired statuses with automatic resolutions and a visualizer for status counts. ",
+  "description": "The Undertomes' LC inspired statuses to Foundry VTT with automatic resolution built in.",
   "version": "0.2.0",
   "compatibility": {
     "minimum": "14",
